@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #f4f4f4;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(30, 30, 40, 0.98);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+.hero h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #00b4d8;
+}
+.subtitle {
+  font-size: 1.3em;
+  color: #90e0ef;
+}
+
+section {
+  margin: 2.5em 0;
+  padding: 1.5em;
+  background: rgba(44, 44, 60, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+h2 {
+  color: #00b4d8;
+  margin-bottom: 0.7em;
+}
+
+.btn {
+  display: inline-block;
+  background: #00b4d8;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 1em;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: #0077b6;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: space-between;
+}
+.service-item {
+  flex: 1 1 200px;
+  background: #222831;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
+.service-item h3 {
+  color: #90e0ef;
+  margin-bottom: 0.5em;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #ffd166;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8em;
+  border-radius: 6px;
+  border: 1px solid #00b4d8;
+  background: #393e46;
+  color: #fff;
+  font-size: 1em;
+}
+.contact-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+.contact-form button {
+  align-self: flex-end;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2em;
+  color: #adb5bd;
+  font-size: 0.95em;
+}
