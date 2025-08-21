@@ -1,3 +1,14 @@
+      <section className="improvements">
+        <h2>Propuestas de Mejora y Modernización</h2>
+        <ul>
+          <li><b>Digitalización de Trámites:</b> Portales web y apps móviles para trámites, gestión documental y firma digital, automatización de procesos internos.</li>
+          <li><b>Atención Ciudadana Omnicanal:</b> Chatbots, integración con WhatsApp y redes sociales, mesas de ayuda digital y seguimiento de trámites.</li>
+          <li><b>Seguridad Informática Avanzada:</b> Autenticación multifactor, encriptación de datos, auditorías periódicas y simulacros de ciberincidentes.</li>
+          <li><b>Interoperabilidad y Gobierno Abierto:</b> APIs públicas, datos abiertos y transparencia en la gestión.</li>
+          <li><b>Ejemplos de Municipios Avanzados:</b> CABA, Córdoba, Rosario: portales de trámites, apps móviles, automatización y seguridad avanzada.</li>
+          <li><b>Propuesta para Municipios en Desarrollo:</b> Diagnóstico de madurez digital, plan progresivo de digitalización, capacitación, infraestructura y mejora continua.</li>
+        </ul>
+      </section>
 
 
 import logoSG from './assets/logo-sg.svg'
